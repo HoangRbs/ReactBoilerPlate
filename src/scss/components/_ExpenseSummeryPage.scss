@@ -1,0 +1,22 @@
+.ExpenseSummeryPage{
+  background: #eee;
+  padding: 20px 0;
+}
+
+
+.ExpenseSummeryPage__contents {
+  margin: 10px 0;
+
+  a {
+    text-decoration : none;
+  }
+
+  .title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+    span {
+      font-weight: 600;
+    }
+  }
+}

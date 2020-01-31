@@ -1,0 +1,19 @@
+.ExpenseForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+
+  *{
+    margin-bottom: 5px;
+  }
+
+  button {
+    margin-top: 0;
+  }
+}
+
+.ExpenseForm__error {
+  margin-top: 20px;
+  font-weight: bold;
+  font-style: italic;
+}

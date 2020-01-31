@@ -1,0 +1,21 @@
+.box-layout {
+  background: url('/images/bg.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box-layout__box {
+    background: rgba(168, 166, 166, 0.746);
+    padding: $l-size;
+    text-align: center;
+    width:30%;
+    border-radius: 3px;
+  }
+
+  .box-layout__title {
+    margin: 0 0 0.75rem 0;
+  }
+}

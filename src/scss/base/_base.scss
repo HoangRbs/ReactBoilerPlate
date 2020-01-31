@@ -1,0 +1,25 @@
+* {  //css reset
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  color: $dark-grey;
+  //line-height: 2rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}

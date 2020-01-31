@@ -1,0 +1,14 @@
+.button {
+  background: $med_blue;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: #eee;
+  margin-top: 10px;
+  font-size: $s-size;
+  font-weight: 100;
+}
+
+.button--secondary {
+  @extend .button;
+  background: #888;
+}
